@@ -14,8 +14,8 @@
 			float: left;
 			/*position: absolute;*/
 			z-index: 1px;
-			font-family: 'Averia Sans Libre',Monospace,Georgia,Microsoft JhengHei,sans-serif;		
-			font-size: 2.3em;
+			font-family: 'Averia Sans Libre',Georgia,Microsoft JhengHei, DFKai-sb, PMingLiU, MingLiU, sans-serif;
+			font-size: 1.8em;
 			padding: 0cm;
 			margin: 0cm;
 			font-weight: 700;
@@ -24,6 +24,15 @@
 	header:hover {
 		text-shadow: 100px 30px 8px #133015;
 
+	}
+
+	#head_pic{
+			padding-left: 3cm;
+			width: 80%;
+			height: 80%;
+			opacity: 0.9;
+			padding-bottom: 2cm;
+			
 	}
 
 	.whole_content {
@@ -43,16 +52,6 @@
 	}
 
 
-	/* add */
-	#rectangle {
-		padding-left: 0cm;
-		margin-left: 0cm;
-		width: 5px;
-		height: 30px;
-		background: #20B2AA;
-		overflow: hidden;
-
-	}
 
 	.topmenu {
 		float: right;
@@ -68,7 +67,8 @@
 	.topmenu li { 
 		display: inline; 
 		font-size: 1.5em;
-		font-family: 'Averia Sans Libre',Monospace,Georgia,Microsoft JhengHei,sans-serif;		
+		font-family: 'Averia Sans Libre',Georgia,Microsoft JhengHei, DFKai-sb, PMingLiU, MingLiU, sans-serif;
+
 		background: #20B2AA;
 		}
 
@@ -102,6 +102,8 @@
 	.menu ul li { 
 		display: inline; 
 		font-size: 1.3em;
+		/*font-family: Microsoft JhengHei, DFKai-sb, PMingLiU, MingLiU, sans-serif;*/
+
 		}
 
 	.menu ul li a {
@@ -205,8 +207,11 @@
 		color: black;	
 		position: relative;
 		display: block;
-		font-family: 'Averia Sans Libre',Microsoft JhengHei,sans-serif;
+		/*font-family: 'Averia Sans Libre',Georgia,Microsoft JhengHei, DFKai-sb, PMingLiU, MingLiU, sans-serif;*/
+
 		font-size: 1.2em;
+		margin-bottom: 10px;
+
 	}
 
 
@@ -217,7 +222,7 @@
 	.contact_bar{
 	
 		z-index: 1;
-		font-family: 'Averia Sans Libre',Microsoft JhengHei,sans-serif;
+		font-family: 'Averia Sans Libre',Georgia,Microsoft JhengHei, DFKai-sb, PMingLiU, MingLiU, sans-serif;
 
 	}
 
@@ -345,25 +350,25 @@
 	}
 
 
-@media (min-width: 960px) {
-	.columns {
-		-webkit-column-count: 4;
-		-moz-column-count: 4;
-		column-count: 4;
+	@media (min-width: 960px) {
+		.columns {
+			-webkit-column-count: 4;
+			-moz-column-count: 4;
+			column-count: 4;
+		}
 	}
-}
 
-@media (min-width: 1100px) {
-	.columns {
-		-webkit-column-count: 5;
-		-moz-column-count: 5;
-		column-count: 5;
+	@media (min-width: 1100px) {
+		.columns {
+			-webkit-column-count: 5;
+			-moz-column-count: 5;
+			column-count: 5;
+		}
 	}
-}
 
-.columns:hover .img-thumbnail:not(:hover) {
-	opacity: 0.4;
-}
+	.columns:hover .img-thumbnail:not(:hover) {
+		opacity: 0.4;
+	}
 
 
 
@@ -379,7 +384,7 @@
 			padding-top: 1cm;
 		    clear:both;
 		    text-align: center;
-		    font-family: 'Averia Sans Libre',Monospace,Georgia,Microsoft JhengHei,sans-serif;		
+			font-family: 'Averia Sans Libre',Georgia,Microsoft JhengHei, DFKai-sb, PMingLiU, MingLiU, sans-serif;
 			font-size: 1.3em;
 		}
 
