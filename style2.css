@@ -1,0 +1,385 @@
+
+	ul, li, a{
+			list-style: none;
+
+		    text-decoration: none;
+
+	}
+
+	div {
+		 	/*border: 1px solid green;*/
+	}
+
+	header {
+			float: left;
+			/*position: absolute;*/
+			z-index: 1px;
+			font-family: 'Averia Sans Libre',Monospace,Georgia,Microsoft JhengHei,sans-serif;		
+			font-size: 2.3em;
+			padding: 0cm;
+			margin: 0cm;
+			font-weight: 700;
+	}
+
+	header:hover {
+		text-shadow: 100px 30px 8px #133015;
+
+	}
+
+	.whole_content {
+			width: auto;
+			padding: 0em 1em 1em 1em;
+			  
+			background: url(http://subtlepatterns.com/patterns/dimension.png) repeat;
+			  
+			border-radius: 20px 105px 115px 35px;
+			box-shadow: #808080 0px 10px 10px 10px;
+
+		}
+
+
+	form { 
+	margin-bottom: -1px;
+	}
+
+
+	/* add */
+	#rectangle {
+		padding-left: 0cm;
+		margin-left: 0cm;
+		width: 5px;
+		height: 30px;
+		background: #20B2AA;
+		overflow: hidden;
+
+	}
+
+	.topmenu {
+		float: right;
+		border-radius: 10px;
+		margin-right: 2.1cm;
+		
+		/* add */
+	overflow: auto;
+	z-index: 2px;
+	margin-top: -16px;
+	}
+
+	.topmenu li { 
+		display: inline; 
+		font-size: 1.5em;
+		font-family: 'Averia Sans Libre',Monospace,Georgia,Microsoft JhengHei,sans-serif;		
+		background: #20B2AA;
+		}
+
+	.topmenu li {
+		    color: white;
+		    float: left;
+		    text-decoration: none;
+		    padding: 3px 25px;
+		    letter-spacing: 1px;
+		}
+	.topmenu li:hover {
+		    /*color: black;*/
+		background: #008080;
+		}
+	.topmenu li:active {
+		    position: relative;
+		    top: 2px;
+		}
+
+
+
+	.menu {
+		    padding-bottom: 1cm;
+		    clear:both;
+		    overflow: auto;
+		    padding-top: 1cm;
+
+
+		}
+
+	.menu ul li { 
+		display: inline; 
+		font-size: 1.3em;
+		}
+
+	.menu ul li a {
+		    color: black;
+		    float: left;
+		    text-decoration: none;
+		    padding: 10px 25px;
+		    letter-spacing: 1px;
+		}
+	.menu:hover li a {
+		    text-shadow: 0px 0px 3px #555;
+		    color: #bbb;
+		    -webkit-transition: all .3s;
+		}
+	.menu li a:hover {
+		    color: black;
+		    text-shadow: 0px 0px 0px #000;
+		}
+	.menu li a:active {
+		    position: relative;
+		    top: 2px;
+		}
+
+
+
+	h3 {
+
+			padding-bottom:3px;
+			border-bottom:2px  dotted;
+			border-bottom-color: #000;
+			  
+			font-size:1.5em;
+			color:#444;
+		}
+
+	h3:first-letter
+		{
+			font-size:150%;
+			color:#e21c06;
+		}
+
+
+	.right_list {
+		float: left;
+
+	    margin: 0em 0em 0em 5em;
+
+		width: 40%;
+
+		height: 250px;
+		overflow: auto;
+	}
+
+	.left_list {
+		float: left;
+		/*padding-left: 1cm;*/
+		margin: 0em 0em 0em 5em;
+
+		width: 40%;
+
+		height: 250px;
+		overflow: auto;
+
+	}
+
+	.left_list a:nth-child(odd) 
+	{
+		background: #FFC0CB;
+	}
+
+	.right_list a:nth-child(even)
+	{
+		background: #FFC0CB;
+	}
+
+	.list_head{
+	margin-bottom: -0.2px;
+	background-color: #fca79e;
+	border-color: #428bca;
+	border-radius: 10px 10px 0px 0px;
+
+	text-align: center;
+
+	}
+
+
+	
+	.list_item{
+		list-style: none;
+		background-color: #fff;
+	}
+
+
+	.list_item :hover{
+		color: #666;
+		background: #DDD
+	}
+
+	.list_item a {
+		text-decoration: none;
+		color: black;	
+		position: relative;
+		display: block;
+		font-family: 'Averia Sans Libre',Microsoft JhengHei,sans-serif;
+		font-size: 1.2em;
+	}
+
+
+
+
+
+
+	.contact_bar{
+	
+		z-index: 1;
+		font-family: 'Averia Sans Libre',Microsoft JhengHei,sans-serif;
+
+	}
+
+
+	/* 其他分頁 */
+	ul.contact_bar, ul.contact_bar li {
+		padding: 0;
+		font-size: 16px;
+		text-decoration: none;	
+		box-shadow: 0 12px 24px rgba(0,0,0,.275); 
+
+	}
+			
+	ul.contact_bar, ul.contact_bar li{
+		list-style: none;
+	} 
+
+	/* 選單 li 之樣式 */
+	ul.contact_bar > li {
+		position: relative; 
+		width: 160px;
+		float: left;
+		font-size: 1.2em;
+
+	}
+
+
+	/* 選單 li 裡面連結之樣式 */
+	ul.contact_bar li a{
+		display: block;
+		padding: 12px 20px;
+		background: #a15016;
+		color: #FFF; 
+
+	}
+	/* 特定在第一層，以左邊灰線分隔 */
+	ul.contact_bar > li > a{
+		border-bottom: 15px solid #48240a;		 		
+		border-right: 13px solid #753a10;  
+		text-align:  center;
+	}
+	ul.contact_bar > li > a:hover{
+		color: #666;
+		background: none;
+		border-bottom: 15px solid rgba(0%,0%,0%,0.3);;		 		
+		border-right: 13px solid rgba(0%,0%,0%,0.1);; 
+	}
+	/* 特定在第一層 > 第二層下拉部分之樣式 */
+	ul.contact_bar ul{
+		display: none;
+		float: left;	
+		position: absolute;			
+		left: 0;	
+		margin: 0; 
+
+	}
+	/* 當第一層選單被觸發時，指定第二層顯示 */
+	ul.contact_bar li:hover > ul{
+		display: block;
+	}			
+	/* 特定在第二層下拉部分 li 之樣式 */
+	ul.contact_bar ul li {
+		border-bottom: 1px solid #DDD;
+		font-size: 1em;
+
+	}
+	/* 特定在第二層下拉部分 li 之樣式 */
+	ul.contact_bar ul li:last-child {
+		border-bottom: none;  
+	}
+	/* 第二層選單 li 之樣式 */
+	ul.contact_bar ul a {
+		width: 130px;
+		padding: 10px 12px;	
+		color: #666;		
+		background: #FFF;	
+	}
+	ul.contact_bar ul a:hover {	
+		background: #8c532b;	
+		text-decoration: underline;
+		color: black; 
+	}
+
+	a:active{
+ 		color: yellow;		
+ 	}
+
+
+
+	.contact {
+		clear:both;
+		margin: 1cm;
+		margin-top: 15cm ;
+
+	}
+
+
+
+	.pictures {
+		clear:both;
+		margin: 1cm;
+		margin-top: 7cm ;
+
+	}
+
+
+	.pictures li {
+		    float: left;
+		}
+
+
+	.img-thumbnail {
+			padding: 12px;
+			background-color: #fff;
+			border-radius: 4px;
+		    /*overflow:auto;*/
+		}
+
+
+	.img-thumbnail img {
+		width: 100%;
+		border-bottom: 3px solid #ccc;
+		padding-bottom: 15px;
+		margin-bottom: 5px;
+	}
+
+
+@media (min-width: 960px) {
+	.columns {
+		-webkit-column-count: 4;
+		-moz-column-count: 4;
+		column-count: 4;
+	}
+}
+
+@media (min-width: 1100px) {
+	.columns {
+		-webkit-column-count: 5;
+		-moz-column-count: 5;
+		column-count: 5;
+	}
+}
+
+.columns:hover .img-thumbnail:not(:hover) {
+	opacity: 0.4;
+}
+
+
+
+
+
+
+
+	.logo {
+			width: 80px;
+			height: 80px;
+		}
+	footer {
+			padding-top: 1cm;
+		    clear:both;
+		    text-align: center;
+		    font-family: 'Averia Sans Libre',Monospace,Georgia,Microsoft JhengHei,sans-serif;		
+			font-size: 1.3em;
+		}
+
