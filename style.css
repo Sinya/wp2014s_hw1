@@ -195,6 +195,7 @@
 	.list_item{
 		list-style: none;
 		background-color: #fff;
+
 	}
 
 
@@ -211,7 +212,8 @@
 		/*font-family: 'Averia Sans Libre',Georgia,Microsoft JhengHei, DFKai-sb, PMingLiU, MingLiU, sans-serif;*/
 
 		font-size: 1.2em;
-		margin-bottom: 5px;
+				/*margin-bottom: 5px;*/
+
 
 	}
 
