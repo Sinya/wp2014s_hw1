@@ -40,7 +40,7 @@
 		height: 80%;
 		vertical-align : middle;
 		border-radius: 20px;
-		margin-left: 3cm;
+		margin-left: 2.7cm;
 		margin-bottom: 1cm;
 		}
 
@@ -65,7 +65,7 @@
 
 		float: right;
 		border-radius: 10px;
-		margin-right: 2.5cm;
+		margin-right: 1.9cm;
 		
 		/* add */
 	overflow: hidden; /* yes */
@@ -162,19 +162,20 @@
 			  
 			font-size:1.5em;
 			color:#444;
-			padding: 20px;
+			padding: 10px;
+			letter-spacing: 3px;　
 		}
 
 	h3:first-letter
 		{
 			font-size:150%;
-			color:#e21c06;
+			color:#8B0000;
 		}
 
 
 	.right_list {
 		float: left;
-	    margin: 0em 0em 0em 5em;
+	    margin: 3em 0em 0em 5em;
 		width: 40%;
 		height: 300px;
 		overflow: auto;
@@ -184,7 +185,7 @@
 
 	.left_list {
 		float: left;
-		margin: 0em 0em 0em 5em;
+		margin: 3em 0em 0em 5em;
 		width: 40%;
 		height: 300px;
 		overflow: auto;
@@ -205,12 +206,14 @@
 	}
 
 	.list_head{
-	margin: 2px 0px -0.2px 0px;
+	margin: 0px 0px -0.2px 0px;
 	background-color: #fca79e;
+	/*background-color: #efecc3;*/
 	border-color: #428bca;
 	border-radius: 10px 10px 0px 0px;
 
 	text-align: center;
+
 	}
 
 
@@ -235,6 +238,7 @@
 
 		font-size: 1.2em;
 		/*margin-bottom: 5px;*/
+		padding: 7px;
 
 
 	}
@@ -245,18 +249,16 @@
 	}
 
 
-
-
 	.contact_bar{
 	
 		z-index: 1;
 		font-family: 'Averia Sans Libre',Georgia,Microsoft JhengHei, DFKai-sb, PMingLiU, MingLiU, sans-serif;
-
+		max-width: 480px;
+	
 	}
 
 
-	/* 其他分頁 */
-	ul.contact_bar, ul.contact_bar li {
+	ul.contact_bar {
 		padding: 0;
 		font-size: 16px;
 		text-decoration: none;	
@@ -264,89 +266,51 @@
 
 	}
 			
-	ul.contact_bar, ul.contact_bar li{
-		list-style: none;
-	} 
-
-	/* 選單 li 之樣式 */
 	ul.contact_bar > li {
-		position: relative; 
-		width: 160px;
+		/*position: relative; */
+		width: 130px;
 		float: left;
-		font-size: 1.2em;
+		font-size: 1em;
 
-	}
+		}
 
-
-	/* 選單 li 裡面連結之樣式 */
 	ul.contact_bar li a{
 		display: block;
-		padding: 12px 20px;
+		padding: 10px 15px;
 		background: #a15016;
 		color: #FFF; 
-
 	}
-	/* 特定在第一層，以左邊灰線分隔 */
+
 	ul.contact_bar > li > a{
 		border-bottom: 15px solid #48240a;		 		
 		border-right: 13px solid #753a10;  
 		text-align:  center;
 	}
+
 	ul.contact_bar > li > a:hover{
 		color: #666;
 		background: none;
 		border-bottom: 15px solid rgba(0%,0%,0%,0.3);;		 		
 		border-right: 13px solid rgba(0%,0%,0%,0.1);; 
+		/*border: 1px solid red;*/
+		overflow: hidden;
 	}
-	/* 特定在第一層 > 第二層下拉部分之樣式 */
-	ul.contact_bar ul{
-		display: none;
-		float: left;	
-		position: absolute;			
-		left: 0;	
-		margin: 0; 
 
-	}
-	/* 當第一層選單被觸發時，指定第二層顯示 */
-	ul.contact_bar li:hover > ul{
-		display: block;
-	}			
-	/* 特定在第二層下拉部分 li 之樣式 */
-	ul.contact_bar ul li {
-		border-bottom: 1px solid #DDD;
-		font-size: 1em;
-
-	}
-	/* 特定在第二層下拉部分 li 之樣式 */
-	ul.contact_bar ul li:last-child {
-		border-bottom: none;  
-	}
-	/* 第二層選單 li 之樣式 */
-	ul.contact_bar ul a {
-		width: 130px;
-		padding: 10px 12px;	
-		color: #666;		
-		background: #FFF;	
-	}
-	ul.contact_bar ul a:hover {	
+	ul.contact_bar a:hover {	
 		background: #8c532b;	
 		text-decoration: underline;
-		color: black; 
+		color: black;
+		overflow: hidden;
+ 
+
 	}
-
-	a:active{
- 		color: yellow;		
- 	}
-
-
 
 	.contact {
 		clear:both;
 		margin: 1cm;
-		margin-top: 15cm ;
-
+		margin-top: 15cm;
+		padding-top: 1cm;
 	}
-
 
 
 	.pictures {
