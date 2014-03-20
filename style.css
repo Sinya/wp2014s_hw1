@@ -237,15 +237,14 @@
 		color: black;	
 		position: relative;
 		display: block;
-		/*font-family: 'Averia Sans Libre',Georgia,'Microsoft JhengHei', DFKai-sb, PMingLiU, MingLiU, sans-serif;*/
 
 		font-size: 1.2em;
 		padding: 5px;
-
+		text-indent: -5em;
+		margin-left: 4.5em;
 	}
 
 	.list_item :before{
-
 		/*content: "";*/
 	}
 
