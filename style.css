@@ -129,7 +129,7 @@
 	.menu ul li { 
 		display: inline; 
 		font-size: 1.1em;
-		font-family: 'Averia Sans Libre',Georgia,  PMingLiU, MingLiU, sans-serif;
+			font-family: 'Averia Sans Libre',Georgia,'Microsoft JhengHei', DFKai-sb, PMingLiU, MingLiU, sans-serif;
 
 		}
 
