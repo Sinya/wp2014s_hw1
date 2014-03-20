@@ -43,10 +43,9 @@
 		height: 80%;
 		vertical-align : middle;
 		border-radius: 20px;
-		margin-left: 2.7cm;
+		margin-left: 3cm;
 		margin-bottom: 1cm;
 		}
-
 
 
 
@@ -80,13 +79,13 @@
 	.topmenu li { 
 		display: inline-block; 
 		font-size: 1.2em;
-		font-family: 'Averia Sans Libre',Georgia,Microsoft JhengHei, DFKai-sb, PMingLiU, MingLiU, sans-serif;
+		font-family: 'Averia Sans Libre',Georgia,'Microsoft JhengHei', DFKai-sb, PMingLiU, MingLiU, sans-serif;
 
 		background: #20B2AA;
 		}
 
 	.topmenu li {
-				height:26px; 
+			height:26px; 
 
 		    color: white;
 		    float: left;
@@ -97,6 +96,7 @@
 	.topmenu li:hover {
 		    /*color: black;*/
 		background: #008080;
+		cursor: pointer;
 
 		}
 	.topmenu li:active {
@@ -121,15 +121,15 @@
 		    clear:both;
 		    overflow: auto;
 		    padding-top: 1cm;
-		    padding-left: 0.6cm;
+		    padding-left: 0.3cm;
 
 
 		}
 
 	.menu ul li { 
 		display: inline; 
-		font-size: 1em;
-		/*font-family: Microsoft JhengHei, DFKai-sb, PMingLiU, MingLiU, sans-serif;*/
+		font-size: 1.1em;
+		font-family: 'Averia Sans Libre',Georgia,  PMingLiU, MingLiU, sans-serif;
 
 		}
 
@@ -178,7 +178,7 @@
 
 	.right_list {
 		float: left;
-	    margin: 3em 0em 0em 5em;
+	    margin: 0em 0em 0em 4.9em;
 		width: 40%;
 		height: 300px;
 		overflow: auto;
@@ -188,7 +188,7 @@
 
 	.left_list {
 		float: left;
-		margin: 3em 0em 0em 5em;
+		margin: 0em 0em 0em 4.9em;
 		width: 40%;
 		height: 300px;
 		overflow: auto;
@@ -237,7 +237,7 @@
 		color: black;	
 		position: relative;
 		display: block;
-		/*font-family: 'Averia Sans Libre',Georgia,Microsoft JhengHei, DFKai-sb, PMingLiU, MingLiU, sans-serif;*/
+		/*font-family: 'Averia Sans Libre',Georgia,'Microsoft JhengHei', DFKai-sb, PMingLiU, MingLiU, sans-serif;*/
 
 		font-size: 1.2em;
 		padding: 7px;
@@ -270,7 +270,7 @@
 		text-transform: uppercase;
 		margin: 15px 5px 0 5px;
 		transition: all .2s;
-		font-family: 'Averia Sans Libre',Georgia,Microsoft JhengHei, DFKai-sb, PMingLiU, MingLiU, sans-serif;
+		font-family: 'Averia Sans Libre',Georgia,'Microsoft JhengHei', DFKai-sb, PMingLiU, MingLiU, sans-serif;
 		font-size: 1.5em;
 
 	}
@@ -370,7 +370,7 @@
 		font: 18px/27px Arial, sans-serif;
 		color: #333;
 		margin: 0;
-		font-family: 'Averia Sans Libre',Georgia,Microsoft JhengHei, DFKai-sb, PMingLiU, MingLiU, sans-serif;
+		font-family: 'Averia Sans Libre',Georgia,'Microsoft JhengHei', DFKai-sb, PMingLiU, MingLiU, sans-serif;
 
 	}
 
@@ -394,14 +394,11 @@
 
 
 	.img-thumbnail {
-				opacity: 0.7;
-
+		opacity: 0.7;
 	}
 
 	.img-thumbnail:hover {
-
-				opacity: 1.0;
-
+		opacity: 1.0;
 	}
 
 
@@ -423,36 +420,36 @@
 
 
 
-.ribbon {
-	clear: both;
-	background-color: #a00;
-	overflow: hidden;
-	white-space: nowrap;
-	position: absolute;
-	left: -30px;
-	top: 30px;
-	-webkit-transform: rotate(-40deg);
-	-moz-transform: rotate(-40deg);
-	-ms-transform: rotate(-40deg);
-    -o-transform: rotate(-40deg);
-    transform: rotate(-40deg);
-    -webkit-box-shadow: 0 0 10px #888;
-    -moz-box-shadow: 0 0 10px #888;
-    box-shadow: 0 0 10px #888;
-	z-index: 0;
-}
+	.ribbon {
+		clear: both;
+		background-color: #a00;
+		overflow: hidden;
+		white-space: nowrap;
+		position: absolute;
+		left: -20px;
+		top: 30px;
+		-webkit-transform: rotate(-40deg);
+		-moz-transform: rotate(-40deg);
+		-ms-transform: rotate(-40deg);
+	    -o-transform: rotate(-40deg);
+	    transform: rotate(-40deg);
+	    -webkit-box-shadow: 0 0 10px #888;
+	    -moz-box-shadow: 0 0 10px #888;
+	    box-shadow: 0 0 10px #888;
+		z-index: 0;
+	}
 
 
-.ribbon a{
-	border: 1px solid #faa;
-	color: #fff;
-	display: block;
-	font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	margin: 1px 0;
-	padding: 10px 50px;
-	text-align: center;
-	text-decoration: none;
+	.ribbon span{
+		border: 1px solid #faa;
+		color: #fff;
+		display: block;
+		font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		margin: 1px 0;
+		padding: 10px 30px;
+		text-align: center;
+		text-decoration: none;
 
-	text-shadow: 0 0 5px #444;
+		text-shadow: 0 0 5px #444;
 
-}
+	}
