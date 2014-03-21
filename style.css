@@ -22,6 +22,8 @@
 			font-weight: 700;
 			margin-left: 1cm;
 			margin-top: 1cm;
+			color: #423d3f;
+
 
 	}
 
@@ -66,13 +68,15 @@
 		/*position: fixed;*/
 
 		float: right;
-		border-radius: 300px;
+		border-radius: 30px;
 		margin-right: 1.9cm;
 		
 		/* add */
 		overflow: hidden; /* yes */
 		z-index: 1;
 		margin-top: -16px;
+		color: white;
+
 	
 	}
 
@@ -81,7 +85,7 @@
 		font-size: 1.2em;
 		font-family: 'Averia Sans Libre',Georgia,'Microsoft JhengHei', DFKai-sb, PMingLiU, MingLiU, sans-serif;
 		color: white;
-		background: #7f9124;
+		background: #6abbb6;
 		}
 
 	.topmenu li {
@@ -94,7 +98,7 @@
 	.topmenu li:hover {
 	    cursor: pointer;
    		/*color: black;*/
-   		background: #5b681a;
+   		background: #4ca6a0;
 		}
 	.topmenu li:active {
 		    position: relative;
@@ -126,16 +130,14 @@
 	.menu ul li { 
 		display: inline; 
 		font-size: 1.1em;
-			font-family: 'Averia Sans Libre',Georgia,'Microsoft JhengHei', DFKai-sb, PMingLiU, MingLiU, sans-serif;
-
 		}
 
 	.menu ul li a {
-		    color: black;
 		    float: left;
 		    text-decoration: none;
 		    padding: 10px 25px;
 		    letter-spacing: 1px;
+		    color: #423d3f;
 		}
 	.menu:hover li a {
 		    text-shadow: 0px 0px 3px #555;
@@ -157,7 +159,7 @@
 
 	h3 {
 
-			border-bottom:2px  dotted;
+			border-bottom: 4px  dotted;
 			border-bottom-color: #000;
 			  
 			font-size:1.5em;
@@ -197,7 +199,7 @@
 	}
 
 	.left_list a:last-child, .right_list a:last-child {
-		border-radius: 0px 0px 10px 10px;
+		border-radius: 0px 0px 10px 0px;
 	}
 
 	.list_item a {
@@ -414,6 +416,8 @@
 			font-family: 'Averia Sans Libre',Georgia,Microsoft JhengHei, DFKai-sb, PMingLiU, MingLiU, sans-serif;
 			font-size: 1.3em;
 			padding-bottom: 1cm;
+			color: #423d3f;
+
 		}
 
 
@@ -421,7 +425,7 @@
 
 	.ribbon {
 		clear: both;
-		background-color: #d9596f;
+		background-color: rgba(204,67,67,0.85);
 		overflow: hidden;
 		white-space: nowrap;
 		position: absolute;
@@ -448,7 +452,7 @@
 		padding: 10px 30px;
 		text-align: center;
 		text-decoration: none;
-
+		font-size: 1.2em;
 		text-shadow: 0 0 5px #444;
 
 	}
